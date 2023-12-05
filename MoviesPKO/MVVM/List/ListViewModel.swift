@@ -11,7 +11,6 @@ final class ListViewModel: ViewModelProtocol, ListDataSourceProtocol {
     
     typealias D = NowPlayingElement
     
-    
     var appendElements: (()->())?
     
     var insertLoading: ((Bool)->())?

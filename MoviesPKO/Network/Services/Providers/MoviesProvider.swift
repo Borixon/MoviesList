@@ -15,14 +15,14 @@ enum MoviesProvider {
 
 extension MoviesProvider: TargetType {
     var baseURL: URL {
-        URL(string: API.url)!
+        URL(string: API.baseUrl)!
     }
     
     var path: String {
         switch self {
-        case .nowPlaying(let _):
+        case .nowPlaying:
             return "3/discover/movie"
-        case .getDetails(let id):
+        case .getDetails:
             return ""
         }
     }
@@ -34,8 +34,10 @@ extension MoviesProvider: TargetType {
     var task: Moya.Task {
         switch self {
         case .nowPlaying(let params):
-            return .requestParameters(parameters: params, encoding: URLEncoding.queryString)
-        case .getDetails(let _):
+            return .requestParameters(
+                parameters: params,
+                encoding: URLEncoding.queryString)
+        case .getDetails:
             return .requestPlain
         }
     }

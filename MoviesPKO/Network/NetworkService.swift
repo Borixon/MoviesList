@@ -13,7 +13,7 @@ import Foundation
 final class NetworkService {
     
     lazy var reachability: Reachability? = {
-        try? Reachability(hostname: API.url)
+        try? Reachability(hostname: API.baseUrl)
     }()
     
     func request<C: Codable, T: Moya.TargetType>(target: T) -> Promise<C> {

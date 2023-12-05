@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 final class PosterCell: UICollectionViewCell, CellClassProtocol {
     
@@ -24,7 +25,8 @@ final class PosterCell: UICollectionViewCell, CellClassProtocol {
     
     func setup(_ item: NowPlayingElement) {
         title.text = item.title
-        
+        poster.sd_setImage(
+            with: URL(string: API.imageBaseUrl + item.poster))
     }
     
     private func setupView() {
@@ -48,7 +50,9 @@ final class PosterCell: UICollectionViewCell, CellClassProtocol {
         }
         
         container.addSubview(poster)
+        poster.contentMode = .scaleAspectFill
         poster.backgroundColor = UIColor(white: 0, alpha: 0.1)
+        poster.layer.masksToBounds = true
         poster.layer.cornerRadius = Corners.small
         poster.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
         poster.snp.makeConstraints {

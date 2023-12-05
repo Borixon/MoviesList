@@ -29,6 +29,7 @@
 		6F2FC7AB2B1E197100B3B81E /* NowPlayingElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FC7AA2B1E197100B3B81E /* NowPlayingElement.swift */; };
 		6F2FC7AF2B1E19C300B3B81E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FC7AE2B1E19C300B3B81E /* MainCoordinator.swift */; };
 		6F2FC7B32B1E1C6D00B3B81E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2FC7B22B1E1C6D00B3B81E /* Colors.xcassets */; };
+		6F4F94852B1F612B00DC2C77 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6F4F94842B1F612B00DC2C77 /* SDWebImage */; };
 		6FBC60612B1E1D9900ADA0B6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC60602B1E1D9900ADA0B6 /* Colors.swift */; };
 		6FBC60632B1E1DE300ADA0B6 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC60622B1E1DE300ADA0B6 /* Images.swift */; };
 		6FBC60672B1E1E1400ADA0B6 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC60662B1E1E1400ADA0B6 /* ListViewController.swift */; };
@@ -106,6 +107,7 @@
 				6F2FC7992B1E049F00B3B81E /* Reachability in Frameworks */,
 				6F2FC78E2B1E030C00B3B81E /* PromiseKit in Frameworks */,
 				6F2FC78B2B1E02EC00B3B81E /* SnapKit in Frameworks */,
+				6F4F94852B1F612B00DC2C77 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +325,7 @@
 				6F2FC78A2B1E02EC00B3B81E /* SnapKit */,
 				6F2FC78D2B1E030C00B3B81E /* PromiseKit */,
 				6F2FC7982B1E049F00B3B81E /* Reachability */,
+				6F4F94842B1F612B00DC2C77 /* SDWebImage */,
 			);
 			productName = MoviesPKO;
 			productReference = 6F2FC7532B1DFF4300B3B81E /* MoviesPKO.app */;
@@ -401,6 +404,7 @@
 				6F2FC7892B1E02EC00B3B81E /* XCRemoteSwiftPackageReference "SnapKit" */,
 				6F2FC78C2B1E030C00B3B81E /* XCRemoteSwiftPackageReference "PromiseKit" */,
 				6F2FC7972B1E049F00B3B81E /* XCRemoteSwiftPackageReference "Reachability" */,
+				6F4F94832B1F612B00DC2C77 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 6F2FC7542B1DFF4300B3B81E /* Products */;
 			projectDirPath = "";
@@ -847,6 +851,14 @@
 				kind = branch;
 			};
 		};
+		6F4F94832B1F612B00DC2C77 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.6;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -869,6 +881,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6F2FC7972B1E049F00B3B81E /* XCRemoteSwiftPackageReference "Reachability" */;
 			productName = Reachability;
+		};
+		6F4F94842B1F612B00DC2C77 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F4F94832B1F612B00DC2C77 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

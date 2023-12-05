@@ -21,7 +21,9 @@ extension ListViewController: UICollectionViewDataSource {
             let cell = collectionView.dequeueReusableCell(
                 withReuseIdentifier: PosterCell.identifier,
                 for: indexPath) as! PosterCell
-            cell.setup(viewModel.elementAt(indexPath.row))
+            cell.setup(
+                viewModel.elementAt(indexPath.row))
+              
             return cell
         }
     

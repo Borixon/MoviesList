@@ -21,8 +21,7 @@ struct MoviesService {
              "include_video":video,
              "page":page,
              "sort_by":"popularity.desc",
-             "with_release_type":2|3,
-             "api_key":API.apiKey]
+             "with_release_type":2|3]
         
         return NetworkService()
                 .request(target: T.nowPlaying(params))
