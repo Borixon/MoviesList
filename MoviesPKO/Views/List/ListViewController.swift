@@ -52,7 +52,7 @@ final class ListViewController: UIViewController {
     
     private func insetLoading(_ insert: Bool) {
         UIView.animate(withDuration: 0.3, animations: { [unowned self] in
-            self.indicator.alpha = 1
+            self.indicator.alpha = insert ? 1 : 0
         })
     }
     

@@ -30,7 +30,9 @@ final class MovieDetailsViewController: UIViewController {
     
     private var contentView: UIStackView = {
         let stack = UIStackView(frame: .zero)
-        stack.spacing = 10
+        stack.spacing = 20
+        stack.isLayoutMarginsRelativeArrangement = true
+        stack.layoutMargins = .init(top: 0, left: 16, bottom: 0, right: 16)
         stack.alignment = .fill
         stack.distribution = .equalSpacing
         stack.axis = .vertical

@@ -14,6 +14,7 @@ struct MovieListModel: Codable {
     let title: String
     let overview: String
     let backdrop: String
+    let releaseDate: String
     let poster: String
     let rating: Double
 
@@ -22,6 +23,7 @@ struct MovieListModel: Codable {
         case adult
         case title
         case overview
+        case releaseDate = "release_date"
         case backdrop = "backdrop_path"
         case poster = "poster_path"
         case rating = "vote_average"
@@ -32,7 +34,8 @@ struct MovieListModel: Codable {
               adult: false,
               title: "Mock",
               overview: "",
-              backdrop: "/f1AQhx6ZfGhPZFTVKgxG91PhEYc.jpg",
+              backdrop: "/f1AQhx6ZfGhPZFTVKgxG91PhEYc.jpg", 
+              releaseDate: "2023-12-12",
               poster: "/hkxxMIGaiCTmrEArK7J56JTKUlB.jpg",
               rating: 6.9)
     }
