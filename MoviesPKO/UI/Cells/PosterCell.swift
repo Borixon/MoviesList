@@ -23,7 +23,7 @@ final class PosterCell: UICollectionViewCell, CellClassProtocol {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setup(_ item: NowPlayingElement) {
+    func setup(_ item: MovieListModel) {
         title.text = item.title
         poster.sd_setImage(
             with: URL(string: API.imageBaseUrl + item.poster))
@@ -42,9 +42,11 @@ final class PosterCell: UICollectionViewCell, CellClassProtocol {
         }
         
         container.addSubview(title)
+        title.font = Fonts.get(size: 18, weight: .bold)
+        title.numberOfLines = 0
+        title.textAlignment = .center
         title.textColor = Colors.text
         title.snp.makeConstraints {
-            $0.height.equalTo(32)
             $0.leading.trailing.equalToSuperview().inset(16)
             $0.bottom.equalToSuperview().inset(8)
         }

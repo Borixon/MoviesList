@@ -9,7 +9,7 @@ import Foundation
 
 struct NowPlayingListPage: Codable {
     let page: Int
-    let results: [NowPlayingElement]
+    let results: [MovieListModel]
     let total_pages: Int64
     let total_results: Int64
 }

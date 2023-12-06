@@ -9,7 +9,7 @@ import Foundation
 
 final class ListViewModel: ViewModelProtocol, ListDataSourceProtocol {
     
-    typealias D = NowPlayingElement
+    typealias D = MovieListModel
     
     var appendElements: (()->())?
     
@@ -18,10 +18,11 @@ final class ListViewModel: ViewModelProtocol, ListDataSourceProtocol {
     var numberOfItems: Int { items.count }
     
     private var page: Int32 = 1
-    private var items: [NowPlayingElement] = []
+    private var items: [MovieListModel] = []//[MovieListModel.mock()]
     private var pageSize: Int { 20 }
     
     func onStart() {
+        guard items.isEmpty else { return }
         getItemsForCurrentPage()
     }
     
@@ -39,7 +40,7 @@ final class ListViewModel: ViewModelProtocol, ListDataSourceProtocol {
         }
     }
     
-    func elementAt(_ index: Int) -> NowPlayingElement {
+    func elementAt(_ index: Int) -> MovieListModel {
         items[index]
     }
 }

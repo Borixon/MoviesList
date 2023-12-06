@@ -10,8 +10,8 @@ import UIKit
 extension ListViewController: UICollectionViewDelegate {
     func collectionView(
         _ collectionView: UICollectionView,
-        willDisplay cell: UICollectionViewCell,
-        forItemAt indexPath: IndexPath) {
-            
+        didSelectItemAt indexPath: IndexPath) {
+        
+            coordinator?.presentMovieDetails(item: viewModel.elementAt(indexPath.row))
         }
 }

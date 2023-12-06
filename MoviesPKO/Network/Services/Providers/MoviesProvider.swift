@@ -10,7 +10,7 @@ import Foundation
 
 enum MoviesProvider {
     case nowPlaying(_ params: [String:Any]),
-         getDetails(_ id: Int32)
+         getDetails(_ id: Int64)
 }
 
 extension MoviesProvider: TargetType {
@@ -21,9 +21,9 @@ extension MoviesProvider: TargetType {
     var path: String {
         switch self {
         case .nowPlaying:
-            return "3/discover/movie"
-        case .getDetails:
-            return ""
+            return "3/movie/now_playing"
+        case .getDetails(let id):
+            return "3/movie/\(id)"
         }
     }
     

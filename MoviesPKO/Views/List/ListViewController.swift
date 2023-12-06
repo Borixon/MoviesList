@@ -19,7 +19,7 @@ final class ListViewController: UIViewController {
         viewModel = .init()
         collectionView = .init(
             frame: .zero,
-            collectionViewLayout: UICollectionViewFlowLayout())
+            collectionViewLayout: MoviesListLayout())
         super.init(nibName: nil, bundle: nil)
     }
     

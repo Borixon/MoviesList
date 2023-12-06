@@ -31,7 +31,9 @@ extension ListViewController: UICollectionViewDataSource {
         _ collectionView: UICollectionView,
         layout collectionViewLayout: UICollectionViewLayout,
         sizeForItemAt indexPath: IndexPath) -> CGSize {
-            .init(width: 170, height: 240)
+            let w = collectionView.bounds.width - 40
+            return .init(width: w,
+                         height: w * 1.25)
         }
 }
 
