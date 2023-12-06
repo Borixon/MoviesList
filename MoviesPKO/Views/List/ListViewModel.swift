@@ -18,7 +18,7 @@ final class ListViewModel: ViewModelProtocol, ListDataSourceProtocol {
     var numberOfItems: Int { items.count }
     
     private var page: Int32 = 1
-    private var items: [MovieListModel] = []//[MovieListModel.mock()]
+    private var items: [MovieListModel] = [.mock()]
     private var pageSize: Int { 20 }
     
     func onStart() {

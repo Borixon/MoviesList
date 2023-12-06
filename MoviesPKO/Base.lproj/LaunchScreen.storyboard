@@ -22,18 +22,12 @@
                                     <constraint firstAttribute="width" secondItem="PtH-7X-JKG" secondAttribute="height" multiplier="140:117" id="cHz-vQ-h6Z"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MoviesPKO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvH-uq-g0s">
-                                <rect key="frame" x="96" y="521.66666666666663" width="201" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvH-uq-g0s">
+                                <rect key="frame" x="135.33333333333334" y="505.66666666666674" width="122.33333333333334" height="42"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" red="0.29709503050000002" green="0.36361187699999997" blue="0.45738112930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufj-tF-N1n">
-                                <rect key="frame" x="185" y="719" width="52" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system"/>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -41,7 +35,7 @@
                             <constraint firstItem="PtH-7X-JKG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0Ns-bV-eJu"/>
                             <constraint firstItem="PtH-7X-JKG" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.712468" id="LsJ-MG-FhN"/>
                             <constraint firstItem="PtH-7X-JKG" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-50" id="VAs-5b-iQm"/>
-                            <constraint firstItem="dvH-uq-g0s" firstAttribute="top" secondItem="PtH-7X-JKG" secondAttribute="bottom" constant="16" id="po6-0l-xUe"/>
+                            <constraint firstItem="dvH-uq-g0s" firstAttribute="top" secondItem="PtH-7X-JKG" secondAttribute="bottom" id="po6-0l-xUe"/>
                             <constraint firstItem="dvH-uq-g0s" firstAttribute="centerX" secondItem="PtH-7X-JKG" secondAttribute="centerX" id="tr3-JA-9Y1"/>
                         </constraints>
                     </view>
@@ -53,6 +47,5 @@
     </scenes>
     <resources>
         <image name="Chair" width="180" height="180"/>
-        <image name="star.fill" catalog="system" width="128" height="116"/>
     </resources>
 </document>

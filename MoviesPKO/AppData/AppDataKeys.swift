@@ -9,4 +9,5 @@ import Foundation
 
 enum AppDataKey: String, CaseIterable {
     case favoriteMovies
+    case some
 }

@@ -12,7 +12,10 @@ struct MovieDetailsContentBuilder {
     
     static func getViews(from details: MovieListModel) -> [UIView] {
         [poster(details),
-         label(text: details.overview, size: 16, alignment: .natural, fontWeight: .light)]
+         label(text: details.overview,
+               size: 16,
+               alignment: .natural,
+               fontWeight: .light)]
     }
     
     private static func poster(_ details: MovieListModel) -> UIImageView {

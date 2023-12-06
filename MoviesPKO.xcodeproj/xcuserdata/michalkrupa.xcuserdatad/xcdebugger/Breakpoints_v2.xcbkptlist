@@ -98,6 +98,38 @@
             endingLineNumber = "112"
             landmarkName = "cta(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "32958409-B7F9-4183-9202-52595FE29721 - 3947657f15fbe6f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesPKO.MovieDetailsViewController.cta(__C.UIButton) -&gt; ()"
+                  moduleName = "MoviesPKO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/Views/Details/MovieDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "32958409-B7F9-4183-9202-52595FE29721 - 3947657f15fbe712"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesPKO.MovieDetailsViewController.cta(__C.UIButton) -&gt; ()"
+                  moduleName = "MoviesPKO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/Views/Details/MovieDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -114,148 +146,36 @@
             endingLineNumber = "60"
             landmarkName = "didPressFavorite()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "ED373F5D-CB0B-4F20-A749-9C95CABB1D52"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MoviesPKO/AppData/AppData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "addToFavorite(_:movieId:)"
-            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "ED373F5D-CB0B-4F20-A749-9C95CABB1D52 - 57b123340e68da2f"
+                  uuid = "98F939F0-DFB4-4B90-95A1-EAD84F1CB4D1 - 3060adedd07e3e10"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "MoviesPKO.AppData.addToFavorite(_: Swift.Bool, movieId: Swift.Int64) -&gt; ()"
+                  symbolName = "MoviesPKO.MovieDetailsViewModel.didPressFavorite() -&gt; ()"
                   moduleName = "MoviesPKO"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/AppData/AppData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "456">
-               </Location>
-               <Location
-                  uuid = "ED373F5D-CB0B-4F20-A749-9C95CABB1D52 - 57b123340e68da2f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MoviesPKO.AppData.addToFavorite(_: Swift.Bool, movieId: Swift.Int64) -&gt; ()"
-                  moduleName = "MoviesPKO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/AppData/AppData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "220">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C26B8DA6-11B6-49AB-81CC-6B88B56EA2C9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MoviesPKO/AppData/AppData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "addToFavorite(_:movieId:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C26B8DA6-11B6-49AB-81CC-6B88B56EA2C9 - 57b123340e68da69"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MoviesPKO.AppData.addToFavorite(_: Swift.Bool, movieId: Swift.Int64) -&gt; ()"
-                  moduleName = "MoviesPKO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/AppData/AppData.swift"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/Views/Details/MovieDetailsViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "57"
                   endingLineNumber = "57"
-                  offsetFromSymbolStart = "312">
+                  offsetFromSymbolStart = "56">
                </Location>
                <Location
-                  uuid = "C26B8DA6-11B6-49AB-81CC-6B88B56EA2C9 - 14a0e15a13a63377"
+                  uuid = "98F939F0-DFB4-4B90-95A1-EAD84F1CB4D1 - 3060adedd07e3eb3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Int64) -&gt; Swift.Bool in MoviesPKO.AppData.addToFavorite(_: Swift.Bool, movieId: Swift.Int64) -&gt; ()"
+                  symbolName = "MoviesPKO.MovieDetailsViewModel.didPressFavorite() -&gt; ()"
                   moduleName = "MoviesPKO"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/AppData/AppData.swift"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/Views/Details/MovieDetailsViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "28">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "48EAF12D-7D35-4B92-8D76-8F6ED99C5758"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MoviesPKO/AppData/AppData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "addToFavorite(_:movieId:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "48EAF12D-7D35-4B92-8D76-8F6ED99C5758 - 57b123340e68dab3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MoviesPKO.AppData.addToFavorite(_: Swift.Bool, movieId: Swift.Int64) -&gt; ()"
-                  moduleName = "MoviesPKO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/AppData/AppData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "220">
-               </Location>
-               <Location
-                  uuid = "48EAF12D-7D35-4B92-8D76-8F6ED99C5758 - 57b123340e68dab3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MoviesPKO.AppData.addToFavorite(_: Swift.Bool, movieId: Swift.Int64) -&gt; ()"
-                  moduleName = "MoviesPKO"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/AppData/AppData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "116">
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "56">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -274,13 +194,60 @@
             endingLineNumber = "63"
             landmarkName = "didPressFavorite()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "22429DDF-D85E-4764-AA74-0768E712E322 - 3060adedd07e3eb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesPKO.MovieDetailsViewModel.didPressFavorite() -&gt; ()"
+                  moduleName = "MoviesPKO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/Views/Details/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "22429DDF-D85E-4764-AA74-0768E712E322 - 3060adedd07e3f56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesPKO.MovieDetailsViewModel.didPressFavorite() -&gt; ()"
+                  moduleName = "MoviesPKO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/Views/Details/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "22429DDF-D85E-4764-AA74-0768E712E322 - 3060adedd07e3f56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesPKO.MovieDetailsViewModel.didPressFavorite() -&gt; ()"
+                  moduleName = "MoviesPKO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/Views/Details/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8B69DCB4-93D3-4BB1-B82C-EB6B96072877"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MoviesPKO/Views/Details/MovieDetailsViewModel.swift"
@@ -289,6 +256,86 @@
             startingLineNumber = "52"
             endingLineNumber = "52"
             landmarkName = "favoriteIcon()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8B69DCB4-93D3-4BB1-B82C-EB6B96072877 - c6c999a0a391d6c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesPKO.MovieDetailsViewModel.favoriteIcon() -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "MoviesPKO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/Views/Details/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "8B69DCB4-93D3-4BB1-B82C-EB6B96072877 - c6c999a0a391d65d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoviesPKO.MovieDetailsViewModel.favoriteIcon() -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "MoviesPKO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/ios/MoviesPKO/MoviesPKO/Views/Details/MovieDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EB64430-83CA-4E75-B750-1AE034F81EB7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoviesPKO/Views/List/ListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getItemsForCurrentPage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6207FA7C-B909-4F0A-B63D-75CF1E241B41"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoviesPKO/Views/List/ListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getItemsForCurrentPage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CD42CF9-5B67-48AE-A015-11F1FD458B7C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoviesPKO/Views/List/ListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getItemsForCurrentPage()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

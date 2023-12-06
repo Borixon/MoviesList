@@ -9,7 +9,11 @@ import Foundation
 
 struct AppData {
     
-    private let defaults = UserDefaults.standard
+    internal let defaults: UserDefaults
+    
+    init(with defaults: UserDefaults = UserDefaults.standard) {
+        self.defaults = defaults
+    }
     
     private var favMovies: [Int64]? {
         if let list: [Int64] = get(.favoriteMovies) {

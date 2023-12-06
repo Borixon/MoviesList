@@ -11,12 +11,14 @@ import SnapKit
 final class ListViewController: UIViewController {
     
     private let collectionView: UICollectionView
+    private let indicator: UIActivityIndicatorView
     
     internal let viewModel: ListViewModel
     internal var coordinator: MainCoordinator? = nil
     
     init() {
         viewModel = .init()
+        indicator = .init(style: .large)
         collectionView = .init(
             frame: .zero,
             collectionViewLayout: MoviesListLayout())
@@ -34,26 +36,66 @@ final class ListViewController: UIViewController {
     }
     
     private func setupViewModel() {
-        viewModel.displayError = { _, _ in
-            
+        viewModel.displayError = { _, text in
+            self.insertAlert(text)
         }
-        viewModel.insertLoading = { _ in
-            
+        viewModel.insertLoading = { [unowned self] insert in
+            self.insetLoading(insert)
         }
-        viewModel.appendElements = {
+        // TODO: Add index paths
+        viewModel.appendElements = { [unowned self] in
             self.collectionView.reloadData()
+            self.revealCollectionIfNeeded()
         }
         viewModel.onStart()
+    }
+    
+    private func insetLoading(_ insert: Bool) {
+        UIView.animate(withDuration: 0.3, animations: { [unowned self] in
+            self.indicator.alpha = 1
+        })
+    }
+    
+    private func insertAlert(_ text: String?) {
+        let alert = UIAlertController(
+            title: "Oops!",
+            message: text,
+            preferredStyle: .actionSheet)
+        alert.addAction(.init(
+            title: "Ok",
+            style: .default,
+            handler: { _ in
+                print("TODO: Handle action")
+            }))
+        present(alert, animated: true)
+    }
+    
+    private func revealCollectionIfNeeded() {
+        guard collectionView.alpha == 0 else { return }
+        UIView.animate(withDuration: 0.3, animations: { [unowned self] in
+            self.collectionView.alpha = 1
+        })
     }
     
     private func setupViewComponents() {
         view.backgroundColor = Colors.background
         setupCollectionView()
+        setupIndicator()
+    }
+    
+    private func setupIndicator() {
+        view.addSubview(indicator)
+        indicator.color = Colors.shadow
+        indicator.snp.makeConstraints {
+            $0.center.equalToSuperview()
+            $0.width.height.equalTo(44)
+        }
+        indicator.startAnimating()
     }
     
     private func setupCollectionView() {
         view.addSubview(collectionView)
-        
+        collectionView.alpha = 0
         collectionView.backgroundColor = .clear
         collectionView.delegate = self
         collectionView.dataSource = self
